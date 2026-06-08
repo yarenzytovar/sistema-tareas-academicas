@@ -1,0 +1,1 @@
+function agregar(){const t=document.getElementById('titulo').value;if(!t)return;const li=document.createElement('li');li.textContent=t;document.getElementById('lista').appendChild(li);document.getElementById('titulo').value='';}
